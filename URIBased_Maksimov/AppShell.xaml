@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="URIBased_Maksimov.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:URIBased_Maksimov"
-    Shell.FlyoutBehavior="Flyout"
-    Title="URIBased_Maksimov">
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:URIBased_Maksimov"
+       x:Class="URIBased_Maksimov.AppShell">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <ShellContent Title="Signup" ContentTemplate="{DataTemplate local:MainPage}" />
 
 </Shell>

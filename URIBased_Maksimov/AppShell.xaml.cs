@@ -1,9 +1,15 @@
-﻿namespace URIBased_Maksimov;
+﻿using Microsoft.Maui.Controls;
 
-public partial class AppShell : Shell
-{
-	public AppShell()
-	{
-		InitializeComponent();
-	}
-}
+namespace URIBased_Maksimov;
+
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+            
+            // Register the route for ProfilePage
+            Routing.RegisterRoute("profilepage", typeof(ProfilePage));
+        }
+    }
+

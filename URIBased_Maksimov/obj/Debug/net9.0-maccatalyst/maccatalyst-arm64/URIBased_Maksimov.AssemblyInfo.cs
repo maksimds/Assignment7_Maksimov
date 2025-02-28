@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("URIBased_Maksimov")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a8be28871ea2df2c24774e142b7b0590b0e5c561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+85dae83cef9ac6677639ad5ff8e02469d1a9b8be")]
 [assembly: System.Reflection.AssemblyProductAttribute("URIBased_Maksimov")]
 [assembly: System.Reflection.AssemblyTitleAttribute("URIBased_Maksimov")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
